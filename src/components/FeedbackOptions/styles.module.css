@@ -1,0 +1,14 @@
+.options {
+  display: flex;
+  padding-left: 0;
+
+  list-style-type: none;
+}
+
+.option:not(:first-child) {
+  margin-left: 16px;
+}
+
+.button {
+  padding: 4px 8px;
+}
